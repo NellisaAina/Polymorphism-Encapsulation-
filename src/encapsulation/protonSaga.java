@@ -40,4 +40,8 @@ public class protonSaga extends proton{
         System.out.println("Proton Saga is running safely");
         super.run();
     }
+    
+    void color(String colour1,String colour2) {
+		System.out.println(colour1 + colour2);
+	}
 }

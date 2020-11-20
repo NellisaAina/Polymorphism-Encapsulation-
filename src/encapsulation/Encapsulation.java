@@ -26,6 +26,7 @@ public class Encapsulation {
         System.out.println("Windows: " + x7.getWindows());
         System.out.println("Headlights: " + x7.getHeadlights());
         x7.tyre();
+        x7.color("Colour: Red", ",Black");
         
         x7.setRadio("Sony");
         System.out.println("Radio Brand: " + x7.getRadio());
@@ -42,6 +43,7 @@ public class Encapsulation {
         System.out.println("Windows: " + x5.getWindows());
         System.out.println("Headlights: " + x5.getHeadlights());
         x5.tyre();
+        x5.color("Colour: Red", ",Blue");
         
         x5.setKey("Auto key");
         System.out.println("Extra Features: " + x5.getKey());
@@ -58,6 +60,8 @@ public class Encapsulation {
         System.out.println("Windows: " + s.getWindows());
         System.out.println("Headlights: " + s.getHeadlights());
         s.tyre();
+        s.color("Colour: Red", ",White");
+        
         s.setRadio("Kenwood");
         System.out.println("Radio brand: "+ s.getRadio());
         s.run();
@@ -73,6 +77,8 @@ public class Encapsulation {
         System.out.println("Windows: " + p.getWindows());
         System.out.println("Headlights: " + p.getHeadlights());
         p.tyre();
+        p.color("Colour: Red", ",Black");
+        
         p.setRadio("Kenwood");
         System.out.println("Radio brand: " +p.getRadio());
         p.run();

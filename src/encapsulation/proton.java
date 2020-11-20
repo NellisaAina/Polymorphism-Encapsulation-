@@ -34,4 +34,12 @@ public class proton {
     void run(){
         System.out.println("Vehicle is running.");
     }
+    
+    void sum(int base, long standard){
+        System.out.println(base + standard);
+    }
+    
+    void sum(int base, int executive, int premium){
+        System.out.println(base + executive + premium);
+    }
 }
